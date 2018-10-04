@@ -1,0 +1,123 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\Config\**" />
+    <Compile Remove="Models\Mapping\**" />
+    <Compile Remove="Services\BizServices\**" />
+    <Compile Remove="Services\EntityServices\**" />
+    <EmbeddedResource Remove="Models\Config\**" />
+    <EmbeddedResource Remove="Models\Mapping\**" />
+    <EmbeddedResource Remove="Services\BizServices\**" />
+    <EmbeddedResource Remove="Services\EntityServices\**" />
+    <None Remove="Models\Config\**" />
+    <None Remove="Models\Mapping\**" />
+    <None Remove="Services\BizServices\**" />
+    <None Remove="Services\EntityServices\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20180924135626_240920181.cs" />
+    <Compile Remove="Migrations\20180924135626_240920181.Designer.cs" />
+    <Compile Remove="Migrations\20180924140512_240920182.cs" />
+    <Compile Remove="Migrations\20180924140512_240920182.Designer.cs" />
+    <Compile Remove="Migrations\20180925141623_250920181.cs" />
+    <Compile Remove="Migrations\20180925141623_250920181.Designer.cs" />
+    <Compile Remove="Migrations\20181001144952_011020181.cs" />
+    <Compile Remove="Migrations\20181001144952_011020181.Designer.cs" />
+    <Compile Remove="Models\ArquivoTeste.cs" />
+    <Compile Remove="Models\Cidade.cs" />
+    <Compile Remove="Models\Enum\Enum.cs" />
+    <Compile Remove="Models\Login.cs" />
+    <Compile Remove="Models\NotaFiscalAutorizada.cs" />
+    <Compile Remove="Models\NotaFiscalSolicitada.cs" />
+    <Compile Remove="Models\Parametros.cs" />
+    <Compile Remove="Models\Requisicao.cs" />
+    <Compile Remove="Models\ServicoWsSoap.cs" />
+    <Compile Remove="Models\To\AutorizacaoNfeTo.cs" />
+    <Compile Remove="Models\To\CancelamentoNfeTo.cs" />
+    <Compile Remove="Models\To\CidadeTo.cs" />
+    <Compile Remove="Models\To\ConsultaNfeTo.cs" />
+    <Compile Remove="Models\To\Extensoes\AutorizacaoNfeToExtensoes.cs" />
+    <Compile Remove="Models\To\Extensoes\CancelamentoNfeToExtensoes.cs" />
+    <Compile Remove="Models\To\Extensoes\ConsultaNfeToExtensoes.cs" />
+    <Compile Remove="Models\To\NfeBaseTo.cs" />
+    <Compile Remove="Models\To\NotaFiscalAutorizadaTo.cs" />
+    <Compile Remove="Models\To\NotaFiscalRetornoTo.cs" />
+    <Compile Remove="Models\To\PedidoAutorizacaoRetornoTo.cs" />
+    <Compile Remove="Models\To\PesquisaNotaFiscalTo.cs" />
+    <Compile Remove="Models\To\PesquisaTo.cs" />
+    <Compile Remove="Models\To\PrestadorTo.cs" />
+    <Compile Remove="Models\To\RequisicaoTo.cs" />
+    <Compile Remove="Models\To\RetornoServicoTo.cs" />
+    <Compile Remove="Models\To\RetornoTo.cs" />
+    <Compile Remove="Models\To\RetornoWsTo.cs" />
+    <Compile Remove="Models\To\UsuarioTo.cs" />
+    <Compile Remove="Models\Usuario.cs" />
+    <Compile Remove="Models\UsuarioPermissao.cs" />
+    <Compile Remove="Repository\CidadeNfeRepository.cs" />
+    <Compile Remove="Repository\Interface\ICidadeNfeRepository.cs" />
+    <Compile Remove="Repository\Interface\INotaFiscalAutorizadaRepository.cs" />
+    <Compile Remove="Repository\Interface\INotaFiscalRepository.cs" />
+    <Compile Remove="Repository\Interface\INotaFiscalSolicitadaRepository.cs" />
+    <Compile Remove="Repository\Interface\IParametrosRepository.cs" />
+    <Compile Remove="Repository\Interface\IPrestadorRepository.cs" />
+    <Compile Remove="Repository\Interface\IRequisicaoRepository.cs" />
+    <Compile Remove="Repository\Interface\IUsuarioCidadeRepository.cs" />
+    <Compile Remove="Repository\Interface\IUsuarioRepository.cs" />
+    <Compile Remove="Repository\NotaFiscalAutorizadaRepository.cs" />
+    <Compile Remove="Repository\NotaFiscalRepository.cs" />
+    <Compile Remove="Repository\NotaFiscalSolicitadaRepository.cs" />
+    <Compile Remove="Repository\ParametrosRepository.cs" />
+    <Compile Remove="Repository\PrestadorRepository.cs" />
+    <Compile Remove="Repository\RequisicaoRepository.cs" />
+    <Compile Remove="Repository\UsuarioCidadeRepository.cs" />
+    <Compile Remove="Repository\UsuarioRepository.cs" />
+    <Compile Remove="Services\CidadeService.cs" />
+    <Compile Remove="Services\Interface\ICidadeService.cs" />
+    <Compile Remove="Services\Interface\IMobLinkService.cs" />
+    <Compile Remove="Services\Interface\INotaFiscalService.cs" />
+    <Compile Remove="Services\Interface\IParametrosService.cs" />
+    <Compile Remove="Services\Interface\IPrestadorService.cs" />
+    <Compile Remove="Services\Interface\IRequisicaoService.cs" />
+    <Compile Remove="Services\Interface\IUsuarioService.cs" />
+    <Compile Remove="Services\IXDbxService.cs" />
+    <Compile Remove="Services\Livro.cs" />
+    <Compile Remove="Services\MobLinkService.cs" />
+    <Compile Remove="Services\NotaFiscalService.cs" />
+    <Compile Remove="Services\ParametrosService.cs" />
+    <Compile Remove="Services\PrestadorService.cs" />
+    <Compile Remove="Services\RequisicaoService.cs" />
+    <Compile Remove="Services\UsuarioService.cs" />
+    <Compile Remove="Services\XDbxService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.1" />
+    <PackageReference Include="System.ServiceModel.Duplex" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.Http" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.NetTcp" Version="4.4.*" />
+    <PackageReference Include="System.ServiceModel.Security" Version="4.4.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CDX.Totem.Infra\CDX.Totem.Infra.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\Enum\" />
+  </ItemGroup>
+
+</Project>

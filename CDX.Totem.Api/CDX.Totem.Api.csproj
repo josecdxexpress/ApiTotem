@@ -1,0 +1,77 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\AutenticacaoController.cs" />
+    <Compile Remove="Controllers\CidadeController.cs" />
+    <Compile Remove="Controllers\DadosInicializacaoController.cs" />
+    <Compile Remove="Controllers\NotaFiscalAutorizacaoController.cs" />
+    <Compile Remove="Controllers\NotaFiscalCancelamentoController.cs" />
+    <Compile Remove="Controllers\NotaFiscalConsultaController.cs" />
+    <Compile Remove="Controllers\NotaFiscalController.cs" />
+    <Compile Remove="Controllers\ParametroController.cs" />
+    <Compile Remove="Controllers\PrestadorController.cs" />
+    <Compile Remove="Controllers\RequisicaoController.cs" />
+    <Compile Remove="Controllers\UploadController.cs" />
+    <Compile Remove="Controllers\UsuarioController.cs" />
+    <Compile Remove="Controllers\ValuesController.cs" />
+    <Compile Remove="Controllers\WsServicesController.cs" />
+    <Compile Remove="Dto\AutorizacaoNfeDto.cs" />
+    <Compile Remove="Dto\CancelamentoNfeDto.cs" />
+    <Compile Remove="Dto\CidadeDto.cs" />
+    <Compile Remove="Dto\ConsultaNfeDto.cs" />
+    <Compile Remove="Dto\Filtro\CidadeFiltroDto.cs" />
+    <Compile Remove="Dto\Filtro\ParametrosFiltroDto.cs" />
+    <Compile Remove="Dto\Filtro\PrestadorFiltroDto.cs" />
+    <Compile Remove="Dto\Filtro\RequisicaoFiltroDto.cs" />
+    <Compile Remove="Dto\Filtro\UsuarioFiltroDto.cs" />
+    <Compile Remove="Dto\LoginDataDto.cs" />
+    <Compile Remove="Dto\RetornoDto.cs" />
+    <Compile Remove="Dto\UsuarioDto.cs" />
+    <Compile Remove="Dto\WsServiceDto.cs" />
+    <Compile Remove="Extensoes\AutorizacaoNfeDtoExtensoes.cs" />
+    <Compile Remove="Extensoes\CancelamentoNfeDtoExtensoes.cs" />
+    <Compile Remove="Extensoes\CidadeDtoExtensoes.cs" />
+    <Compile Remove="Extensoes\CidadeFiltroDtoExtensoes.cs" />
+    <Compile Remove="Extensoes\ConsultaNfeDtoExtensoes.cs" />
+    <Compile Remove="Extensoes\EnumerationExtension.cs" />
+    <Compile Remove="Extensoes\ParametrosFiltroDtoExtensios.cs" />
+    <Compile Remove="Extensoes\PesquisaToExtensoes.cs" />
+    <Compile Remove="Extensoes\PrestadorDtoExtensoes.cs" />
+    <Compile Remove="Extensoes\PrestadorFiltroDtoExtensoes.cs" />
+    <Compile Remove="Extensoes\RequisicaoDtoExtensoes.cs" />
+    <Compile Remove="Extensoes\RequisicaoFiltroDtoExtensoes.cs" />
+    <Compile Remove="Extensoes\UsuarioDtoExtensoes.cs" />
+    <Compile Remove="Extensoes\UsuarioFiltroDtoExtensoes.cs" />
+    <Compile Remove="IHttpActionResult.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dto\Filtro\" />
+    <Folder Include="Extensoes\" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.8.7" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CDX.Totem.Domain\CDX.Totem.Domain.csproj" />
+    <ProjectReference Include="..\CDX.Totem.Infra\CDX.Totem.Infra.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+D:\Bkp\Totem\CDX.Totem.Domain\bin\Debug\netstandard2.0\CDX.Totem.Domain.deps.json
+D:\Bkp\Totem\CDX.Totem.Domain\bin\Debug\netstandard2.0\CDX.Totem.Domain.dll
+D:\Bkp\Totem\CDX.Totem.Domain\bin\Debug\netstandard2.0\CDX.Totem.Domain.pdb
+D:\Bkp\Totem\CDX.Totem.Domain\bin\Debug\netstandard2.0\CDX.Totem.Infra.dll
+D:\Bkp\Totem\CDX.Totem.Domain\bin\Debug\netstandard2.0\CDX.Totem.Infra.pdb
+D:\Bkp\Totem\CDX.Totem.Domain\obj\Debug\netstandard2.0\CDX.Totem.Domain.csprojAssemblyReference.cache
+D:\Bkp\Totem\CDX.Totem.Domain\obj\Debug\netstandard2.0\CDX.Totem.Domain.csproj.CoreCompileInputs.cache
+D:\Bkp\Totem\CDX.Totem.Domain\obj\Debug\netstandard2.0\CDX.Totem.Domain.AssemblyInfoInputs.cache
+D:\Bkp\Totem\CDX.Totem.Domain\obj\Debug\netstandard2.0\CDX.Totem.Domain.AssemblyInfo.cs
+D:\Bkp\Totem\CDX.Totem.Domain\obj\Debug\netstandard2.0\CDX.Totem.Domain.csproj.CopyComplete
+D:\Bkp\Totem\CDX.Totem.Domain\obj\Debug\netstandard2.0\CDX.Totem.Domain.dll
+D:\Bkp\Totem\CDX.Totem.Domain\obj\Debug\netstandard2.0\CDX.Totem.Domain.pdb

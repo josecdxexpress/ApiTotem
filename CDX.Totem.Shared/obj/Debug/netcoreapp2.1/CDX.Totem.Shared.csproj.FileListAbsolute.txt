@@ -1,0 +1,11 @@
+D:\Bkp\Totem\CDX.Totem.Shared\bin\Debug\netcoreapp2.1\CDX.Totem.Shared.deps.json
+D:\Bkp\Totem\CDX.Totem.Shared\bin\Debug\netcoreapp2.1\CDX.Totem.Shared.runtimeconfig.json
+D:\Bkp\Totem\CDX.Totem.Shared\bin\Debug\netcoreapp2.1\CDX.Totem.Shared.runtimeconfig.dev.json
+D:\Bkp\Totem\CDX.Totem.Shared\bin\Debug\netcoreapp2.1\CDX.Totem.Shared.dll
+D:\Bkp\Totem\CDX.Totem.Shared\bin\Debug\netcoreapp2.1\CDX.Totem.Shared.pdb
+D:\Bkp\Totem\CDX.Totem.Shared\obj\Debug\netcoreapp2.1\CDX.Totem.Shared.csprojAssemblyReference.cache
+D:\Bkp\Totem\CDX.Totem.Shared\obj\Debug\netcoreapp2.1\CDX.Totem.Shared.csproj.CoreCompileInputs.cache
+D:\Bkp\Totem\CDX.Totem.Shared\obj\Debug\netcoreapp2.1\CDX.Totem.Shared.AssemblyInfoInputs.cache
+D:\Bkp\Totem\CDX.Totem.Shared\obj\Debug\netcoreapp2.1\CDX.Totem.Shared.AssemblyInfo.cs
+D:\Bkp\Totem\CDX.Totem.Shared\obj\Debug\netcoreapp2.1\CDX.Totem.Shared.dll
+D:\Bkp\Totem\CDX.Totem.Shared\obj\Debug\netcoreapp2.1\CDX.Totem.Shared.pdb

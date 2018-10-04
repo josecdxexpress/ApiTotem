@@ -1,0 +1,8 @@
+D:\Bkp\Totem\CDX.Totem.Infra\bin\Debug\netstandard2.0\CDX.Totem.Infra.deps.json
+D:\Bkp\Totem\CDX.Totem.Infra\bin\Debug\netstandard2.0\CDX.Totem.Infra.dll
+D:\Bkp\Totem\CDX.Totem.Infra\bin\Debug\netstandard2.0\CDX.Totem.Infra.pdb
+D:\Bkp\Totem\CDX.Totem.Infra\obj\Debug\netstandard2.0\CDX.Totem.Infra.csproj.CoreCompileInputs.cache
+D:\Bkp\Totem\CDX.Totem.Infra\obj\Debug\netstandard2.0\CDX.Totem.Infra.AssemblyInfoInputs.cache
+D:\Bkp\Totem\CDX.Totem.Infra\obj\Debug\netstandard2.0\CDX.Totem.Infra.AssemblyInfo.cs
+D:\Bkp\Totem\CDX.Totem.Infra\obj\Debug\netstandard2.0\CDX.Totem.Infra.dll
+D:\Bkp\Totem\CDX.Totem.Infra\obj\Debug\netstandard2.0\CDX.Totem.Infra.pdb
